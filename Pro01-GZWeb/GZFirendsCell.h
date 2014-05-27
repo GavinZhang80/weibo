@@ -11,4 +11,5 @@
 
 @interface GZFirendsCell : UITableViewCell
 @property(strong,nonatomic) GZUserInfo *userInfo;
+@property(strong,nonatomic) id delegate;
 @end

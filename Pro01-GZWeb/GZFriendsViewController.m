@@ -11,6 +11,7 @@
 #import "GZMyWeiboManager.h"
 #import "GZFirendsCell.h"
 #import "GZUserInfoViewController.h"
+#import "XMPPManager.h"
 
 @interface GZFriendsViewController ()
 @property(strong,nonatomic) NSMutableArray *users;
@@ -32,6 +33,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [XMPPManager shareManager]; //登录服务器
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -68,6 +70,7 @@
 }
 
 
+
 #pragma mark - Table view data source
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -81,6 +84,7 @@
 {
     static NSString *CellIdentifier = @"FriendsCell";
     GZFirendsCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    cell.delegate = self;
     
     // Configure the cell...
     

@@ -11,6 +11,7 @@
 #import "GZMyWeiboManager.h"
 #import "GZMyWeiboApi.h"
 #import "GZTopicViewController.h"
+#import "GZIMViewController.h"
 
 @interface GZUserInfoViewController ()
 @property (weak, nonatomic ) IBOutlet UIImageView *myICON;
@@ -90,6 +91,9 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 - (IBAction)sendMessage:(UIButton *)sender {
+    GZIMViewController *iv = [self.storyboard instantiateViewControllerWithIdentifier:@"IMVC"];
+    iv.user = self.userInfo;
+    [self.navigationController pushViewController:iv animated:YES];
 }
 
 

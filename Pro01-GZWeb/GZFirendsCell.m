@@ -7,6 +7,7 @@
 //
 
 #import "GZFirendsCell.h"
+#import "GZIMViewController.h"
 @interface GZFirendsCell()
 @property (weak, nonatomic) IBOutlet UIButton *sendBtn;
 @property (weak, nonatomic) IBOutlet UIImageView *icon;
@@ -41,6 +42,9 @@
 }
 - (IBAction)sendSession:(UIButton *)sender {
     NSLog(@"发起会话");
+    GZIMViewController *iv = [((UIViewController*)self.delegate).storyboard instantiateViewControllerWithIdentifier:@"IMVC"];
+    iv.user = self.userInfo;
+    [((UIViewController*)self.delegate).navigationController pushViewController:iv animated:YES];
 }
 
 -(void)layoutSubviews{

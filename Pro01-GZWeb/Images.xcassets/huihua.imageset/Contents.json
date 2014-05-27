@@ -1,0 +1,31 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "fill",
+          "width" : 2,
+          "height" : 2
+        },
+        "capInsets" : {
+          "bottom" : 41,
+          "top" : 44,
+          "right" : 44,
+          "left" : 45
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "huihua2@2x.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

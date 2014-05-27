@@ -214,7 +214,7 @@ static GZMyWeiboManager *_WeiboManager;
 -(void)addUser:(NSString*)userName andListID:(NSString*)listID completion:(CALLBACK)completion{
     
     NSString *path = [NSString stringWithFormat:@"%@list/add_to_list",BASE_URL];
-    NSString *params = [NSString stringWithFormat:@"?%@&format=json&names=%@&listid=%@",self.normalParams,userName,self.listIDDic.allKeys[1]];
+    NSString *params = [NSString stringWithFormat:@"?%@&format=json&names=%@&listid=%@",self.normalParams,userName,self.listIDDic.allKeys[0]];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:path]];
     [request setHTTPMethod:@"POST"];
