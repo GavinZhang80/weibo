@@ -167,6 +167,8 @@
 		851A23221929C7E900F2C3EC /* GZTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A23211929C7E900F2C3EC /* GZTopicViewController.m */; };
 		851A23261929DCA200F2C3EC /* GZFirendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A23251929DCA200F2C3EC /* GZFirendsCell.m */; };
 		851A23291929DDF300F2C3EC /* GZFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A23281929DDF300F2C3EC /* GZFriendsViewController.m */; };
+		855085831934C4E30097CD05 /* GZIMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 855085801934C4E30097CD05 /* GZIMCell.m */; };
+		855085841934C4E30097CD05 /* GZIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855085821934C4E30097CD05 /* GZIMViewController.m */; };
 		85648D4E1929EC5A00DF86B4 /* GZCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85648D4D1929EC5A00DF86B4 /* GZCustomNavigationController.m */; };
 		85648D511929EEE700DF86B4 /* GZCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85648D501929EEE700DF86B4 /* GZCustomTabBarController.m */; };
 		85648DEA1929F5AD00DF86B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85648DE71929F5AD00DF86B4 /* Security.framework */; };
@@ -310,8 +312,6 @@
 		85903B8F193465CA000C0620 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85903B88193465CA000C0620 /* libxml2.dylib */; };
 		85903B90193465CA000C0620 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85903B89193465CA000C0620 /* libidn.a */; };
 		85903B91193465CA000C0620 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85903B8A193465CA000C0620 /* libresolv.dylib */; };
-		85903B9619346968000C0620 /* GZIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85903B9519346968000C0620 /* GZIMViewController.m */; };
-		85903B99193481AE000C0620 /* GZIMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85903B98193481AE000C0620 /* GZIMCell.m */; };
 		859C5ABC1932DD5600860189 /* GZCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 859C5ABB1932DD5600860189 /* GZCustomTextView.m */; };
 		859C5B54193326FA00860189 /* GZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859C5B53193326FA00860189 /* GZDetailViewController.m */; };
 		859C5B5719333D1C00860189 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 859C5B5619333D1C00860189 /* Comment.m */; };
@@ -512,6 +512,11 @@
 		851A23251929DCA200F2C3EC /* GZFirendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZFirendsCell.m; sourceTree = "<group>"; };
 		851A23271929DDF300F2C3EC /* GZFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZFriendsViewController.h; sourceTree = "<group>"; };
 		851A23281929DDF300F2C3EC /* GZFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZFriendsViewController.m; sourceTree = "<group>"; };
+		8550857F1934C4E30097CD05 /* GZIMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIMCell.h; path = "Pro01-GZWeb/GZIMCell.h"; sourceTree = "<group>"; };
+		855085801934C4E30097CD05 /* GZIMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIMCell.m; path = "Pro01-GZWeb/GZIMCell.m"; sourceTree = "<group>"; };
+		855085811934C4E30097CD05 /* GZIMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIMViewController.h; path = "Pro01-GZWeb/GZIMViewController.h"; sourceTree = "<group>"; };
+		855085821934C4E30097CD05 /* GZIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIMViewController.m; path = "Pro01-GZWeb/GZIMViewController.m"; sourceTree = "<group>"; };
+		855085851934C5020097CD05 /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMPPFramework.h; path = "Pro01-GZWeb/XMPPFramework.h"; sourceTree = "<group>"; };
 		85648D4C1929EC5A00DF86B4 /* GZCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZCustomNavigationController.h; sourceTree = "<group>"; };
 		85648D4D1929EC5A00DF86B4 /* GZCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZCustomNavigationController.m; sourceTree = "<group>"; };
 		85648D4F1929EEE700DF86B4 /* GZCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZCustomTabBarController.h; sourceTree = "<group>"; };
@@ -523,7 +528,6 @@
 		85648DEE1929FA1600DF86B4 /* GZSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSettingViewController.m; sourceTree = "<group>"; };
 		859039AE19346500000C0620 /* XMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
 		859039AF19346500000C0620 /* XMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
-		859039B21934654D000C0620 /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
 		859039B51934657E000C0620 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		859039B61934657E000C0620 /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		859039B81934657E000C0620 /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
@@ -797,10 +801,6 @@
 		85903B88193465CA000C0620 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		85903B89193465CA000C0620 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libidn.a; path = "../XMPPFramework-master/Vendor/libidn/libidn.a"; sourceTree = "<group>"; };
 		85903B8A193465CA000C0620 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
-		85903B9419346968000C0620 /* GZIMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZIMViewController.h; sourceTree = "<group>"; };
-		85903B9519346968000C0620 /* GZIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZIMViewController.m; sourceTree = "<group>"; };
-		85903B97193481AE000C0620 /* GZIMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZIMCell.h; sourceTree = "<group>"; };
-		85903B98193481AE000C0620 /* GZIMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZIMCell.m; sourceTree = "<group>"; };
 		859C5ABA1932DD5600860189 /* GZCustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZCustomTextView.h; sourceTree = "<group>"; };
 		859C5ABB1932DD5600860189 /* GZCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZCustomTextView.m; sourceTree = "<group>"; };
 		859C5B52193326FA00860189 /* GZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZDetailViewController.h; sourceTree = "<group>"; };
@@ -1236,7 +1236,7 @@
 		859039B11934653C000C0620 /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
-				859039B21934654D000C0620 /* XMPPFramework.h */,
+				855085851934C5020097CD05 /* XMPPFramework.h */,
 				859039B31934657E000C0620 /* Authentication */,
 				859039CD1934657E000C0620 /* Categories */,
 				859039D41934657E000C0620 /* Core */,
@@ -2039,10 +2039,10 @@
 		85903B9319346949000C0620 /* IM */ = {
 			isa = PBXGroup;
 			children = (
-				85903B9419346968000C0620 /* GZIMViewController.h */,
-				85903B9519346968000C0620 /* GZIMViewController.m */,
-				85903B97193481AE000C0620 /* GZIMCell.h */,
-				85903B98193481AE000C0620 /* GZIMCell.m */,
+				8550857F1934C4E30097CD05 /* GZIMCell.h */,
+				855085801934C4E30097CD05 /* GZIMCell.m */,
+				855085811934C4E30097CD05 /* GZIMViewController.h */,
+				855085821934C4E30097CD05 /* GZIMViewController.m */,
 			);
 			name = IM;
 			sourceTree = "<group>";
@@ -2293,7 +2293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				85903B711934657F000C0620 /* RFImageToDataTransformer.m in Sources */,
-				85903B9619346968000C0620 /* GZIMViewController.m in Sources */,
 				85903B3A1934657F000C0620 /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
 				8514A464192AE5970057A792 /* GZUserInfoViewController.m in Sources */,
 				85903B721934657F000C0620 /* XMPPIDTracker.m in Sources */,
@@ -2377,6 +2376,7 @@
 				85903B111934657F000C0620 /* XMPPMessage.m in Sources */,
 				85648D511929EEE700DF86B4 /* GZCustomTabBarController.m in Sources */,
 				85903B681934657F000C0620 /* XEP_0223.m in Sources */,
+				855085831934C4E30097CD05 /* GZIMCell.m in Sources */,
 				85903B671934657F000C0620 /* NSXMLElement+XEP_0203.m in Sources */,
 				85903B7A1934657F000C0620 /* DDTTYLogger.m in Sources */,
 				8514A41E192AE03D0057A792 /* annotated.js in Sources */,
@@ -2415,7 +2415,6 @@
 				85903B511934657F000C0620 /* XMPPTransports.m in Sources */,
 				85903B751934657F000C0620 /* GCDAsyncSocket.m in Sources */,
 				8514A457192AE03D0057A792 /* resize.js in Sources */,
-				85903B99193481AE000C0620 /* GZIMCell.m in Sources */,
 				85903B5C1934657F000C0620 /* XMPPMessageArchiving.m in Sources */,
 				8514A4B6192B55730057A792 /* GZMyWeiboManager.m in Sources */,
 				85903B131934657F000C0620 /* XMPPParser.m in Sources */,
@@ -2451,6 +2450,7 @@
 				851A23291929DDF300F2C3EC /* GZFriendsViewController.m in Sources */,
 				85903B2F1934657F000C0620 /* XMPPRoomHybrid.xcdatamodeld in Sources */,
 				851A226E1929B8AE00F2C3EC /* main.m in Sources */,
+				855085841934C4E30097CD05 /* GZIMViewController.m in Sources */,
 				85903B361934657F000C0620 /* XMPPMessage+XEP0045.m in Sources */,
 				85903B451934657F000C0620 /* XMPPvCardTempTel.m in Sources */,
 				85903B3E1934657F000C0620 /* XMPPvCardTemp.m in Sources */,
