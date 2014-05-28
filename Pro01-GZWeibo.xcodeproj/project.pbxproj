@@ -175,6 +175,7 @@
 		85648DEB1929F5AD00DF86B4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85648DE81929F5AD00DF86B4 /* Accounts.framework */; };
 		85648DEC1929F5AD00DF86B4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85648DE91929F5AD00DF86B4 /* Social.framework */; };
 		85648DEF1929FA1600DF86B4 /* GZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85648DEE1929FA1600DF86B4 /* GZSettingViewController.m */; };
+		85757FE61936031600565903 /* GZIMCellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85757FE51936031600565903 /* GZIMCellTextView.m */; };
 		859039B019346500000C0620 /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 859039AF19346500000C0620 /* XMPPManager.m */; };
 		85903B031934657F000C0620 /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 859039B61934657E000C0620 /* XMPPAnonymousAuthentication.m */; };
 		85903B041934657F000C0620 /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 859039B91934657E000C0620 /* XMPPDeprecatedDigestAuthentication.m */; };
@@ -526,6 +527,8 @@
 		85648DE91929F5AD00DF86B4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		85648DED1929FA1600DF86B4 /* GZSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZSettingViewController.h; sourceTree = "<group>"; };
 		85648DEE1929FA1600DF86B4 /* GZSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZSettingViewController.m; sourceTree = "<group>"; };
+		85757FE41936031600565903 /* GZIMCellTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIMCellTextView.h; path = "Pro01-GZWeb/GZIMCellTextView.h"; sourceTree = "<group>"; };
+		85757FE51936031600565903 /* GZIMCellTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIMCellTextView.m; path = "Pro01-GZWeb/GZIMCellTextView.m"; sourceTree = "<group>"; };
 		859039AE19346500000C0620 /* XMPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPManager.h; sourceTree = "<group>"; };
 		859039AF19346500000C0620 /* XMPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPManager.m; sourceTree = "<group>"; };
 		859039B51934657E000C0620 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
@@ -2039,6 +2042,8 @@
 		85903B9319346949000C0620 /* IM */ = {
 			isa = PBXGroup;
 			children = (
+				85757FE41936031600565903 /* GZIMCellTextView.h */,
+				85757FE51936031600565903 /* GZIMCellTextView.m */,
 				8550857F1934C4E30097CD05 /* GZIMCell.h */,
 				855085801934C4E30097CD05 /* GZIMCell.m */,
 				855085811934C4E30097CD05 /* GZIMViewController.h */,
@@ -2369,6 +2374,7 @@
 				85903B791934657F000C0620 /* DDLog.m in Sources */,
 				85648D4E1929EC5A00DF86B4 /* GZCustomNavigationController.m in Sources */,
 				8514A447192AE03D0057A792 /* jquery.js in Sources */,
+				85757FE61936031600565903 /* GZIMCellTextView.m in Sources */,
 				85903B371934657F000C0620 /* XMPPMUC.m in Sources */,
 				85903B101934657F000C0620 /* XMPPJID.m in Sources */,
 				8514A468192AEB0C0057A792 /* GZUserInfo.m in Sources */,

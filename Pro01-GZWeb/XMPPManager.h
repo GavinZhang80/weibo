@@ -19,5 +19,5 @@
 +(XMPPManager*)shareManager;
 -(void)sendMessage;
 @property(strong,nonatomic) id<XMPPManagerDelegate> delegate;
--(void)sendMessage:(NSString*)message toUser:(NSString*)account;
+-(void)sendMessage:(XMPPMessage*)XMPPMessage;
 @end

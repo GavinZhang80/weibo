@@ -119,11 +119,8 @@ static XMPPManager *_xmappManager;
     [self.xmppStream sendElement:message];
     //self.messageTF.text = [NSString stringWithFormat:@"%@\n我说:%@",self.messageTF.text,self.messTF.text];
 }
--(void)sendMessage:(NSString*)message toUser:(NSString*)account{
-    XMPPJID *toJid = [XMPPJID jidWithString:[NSString stringWithFormat:@"%@@tareng3gxmpp.com",account]];
-    XMPPMessage *msg = [XMPPMessage messageWithType:@"text" to:toJid];
-    [msg addBody:message];
-    [self.xmppStream sendElement:msg];
+-(void)sendMessage:(XMPPMessage*)XMPPMessage{
+    [self.xmppStream sendElement:XMPPMessage];
 }
 
 @end

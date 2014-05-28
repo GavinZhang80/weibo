@@ -10,6 +10,6 @@
 #import "XMPPManager.h"
 #import "GZUserInfo.h"
 
-@interface GZIMViewController : UIViewController <XMPPManagerDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface GZIMViewController : UIViewController <XMPPManagerDelegate,UITableViewDelegate,UITableViewDataSource, UIImagePickerControllerDelegate,UINavigationControllerDelegate,UINavigationBarDelegate>
 @property(strong,nonatomic) GZUserInfo *user;
 @end
